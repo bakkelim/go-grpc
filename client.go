@@ -26,4 +26,10 @@ func main() {
 	}
 	log.Printf("Response from server: %s", response.Body)
 
+	response, err = c.BroadcastMessage(context.Background(), &chat.Message{Body: "Message to Broadcast!"})
+	if err != nil {
+		log.Fatalf("Error when calling Broadcast Message: %s", err)
+	}
+	log.Printf("Response from server: %s", response.Body)
+
 }
