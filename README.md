@@ -1,2 +1,2 @@
-# go-grpc
-Playing with GO and gRPC
+# grpc-go
+Playing with gRPC and GO
