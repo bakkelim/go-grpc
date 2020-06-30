@@ -1,10 +1,10 @@
-module bakkelim/go-grpc
+module github.com/bakkelim/go-grpc
 
-go 1.14
+go 1.13
 
 require (
-	github.com/golang/protobuf v1.4.2
-	golang.org/x/net v0.0.0-20190311183353-d8887717615a
-	google.golang.org/grpc v1.27.0
-	google.golang.org/protobuf v1.23.0
+	github.com/golang/protobuf v1.4.1
+	golang.org/x/net v0.0.0-20200625001655-4c5254603344
+	google.golang.org/grpc v1.30.0
+	google.golang.org/protobuf v1.25.0
 )

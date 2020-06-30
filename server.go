@@ -5,7 +5,7 @@ import (
 	"log"
 	"net"
 
-	"bakkelim/go-grpc/chat"
+	"github.com/bakkelim/go-grpc/chat"
 	"google.golang.org/grpc"
 )
 
